@@ -1,0 +1,36 @@
+{
+  "name": "project_js",
+  "version": "1.0.0",
+  "description": "js natif",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode  production",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pershkin/project_js.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css",
+    "firebase"
+  ],
+  "author": "Dmitrii Pershkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pershkin/project_js/issues"
+  },
+  "homepage": "https://github.com/pershkin/project_js#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.0.0-alpha.15",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+  }
+}
